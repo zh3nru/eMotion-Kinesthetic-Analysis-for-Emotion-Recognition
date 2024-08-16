@@ -1,0 +1,1 @@
+if the model produce an emotion with a confidence lower than 0.5, it will be stored in the database and will be reviewed by us developers and psychology professionals then will be added as a new data for the dataset.
