@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 net = cv2.dnn.readNetFromCaffe(r"E:\YOLO\deploy.prototxt", r"E:\YOLO\mobilenet_iter_73000.caffemodel")
 
 # Load the trained emotion recognition model
-emotion_model = load_model(r"D:\THESIS 2.0\eMotion.h5")
+emotion_model = load_model(r"D:\THESIS 2.0\models\eMotion.h5")
 
 # Define the emotions
 emotions = ["Aversion", "Anger", "Happiness", "Fear", "Sadness", "Surprise", "Peace"]
@@ -20,7 +20,7 @@ cap = cv2.VideoCapture(video_path)
 
 # Get video writer initialized to save the output video
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
-out = cv2.VideoWriter('JAK_output.avi', fourcc, 20.0, (int(cap.get(3)), int(cap.get(4))))
+out = cv2.VideoWriter('JAK1_output.avi', fourcc, 20.0, (int(cap.get(3)), int(cap.get(4))))
 
 while cap.isOpened():
     ret, frame = cap.read()
