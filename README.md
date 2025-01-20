@@ -18,6 +18,4 @@ Our model achieved a benchmark accuracy of approximately **75%** during its trai
 ![Image](https://github.com/user-attachments/assets/9daec850-4e3d-43bb-987d-c8466d83229f)
 
 ### Citation:
-This project utilizes the dataset from the BoLD (BOdy Language Dataset) Challenge:
-
 [1] Yu Luo, Jianbo Ye, Reginald B. Adams, Jr., Jia Li, Michelle G. Newman, and James Z. Wang, ARBEE: Towards Automated Recognition of Bodily Expression of Emotion In the Wild,'' International Journal of Computer Vision, vol. 128, no. 1, pp. 1-25, 2020.
