@@ -9,10 +9,12 @@ Our model utilizes the dataset from the **BoLD (BOdy Language Dataset) Challenge
 
 ## Model Training
 In order for the BoLD dataset to accomodate the needs and objectives of our system, we decided to modify the contents of the dataset. Then, fed the modified dataset to our very own CNN architecture to train the model. The code used can be located "here"
+
 ![Image](https://github.com/user-attachments/assets/edcdb371-7fda-42d7-896e-1cf99a6effbf)
 
 ## Result
 Our model achieved a benchmark accuracy of approximately **75%** during its training with a total iteration of 20 epochs.
+
 ![Image](https://github.com/user-attachments/assets/9daec850-4e3d-43bb-987d-c8466d83229f)
 
 ### Citation:
