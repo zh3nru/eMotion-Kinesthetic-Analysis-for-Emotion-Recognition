@@ -1,6 +1,6 @@
 # eMotion: Kinesthetic Analysis for Emotion Recognition
 
-eMotion is a system that analyzes kinesthetic features ***(body movements, postures, gestures)*** to detect and recognize human emotions ***(Happiness, Sadness, Surprise, Disgust, Anger, Fear, Neutral)*** in real time. Unlike traditional emotion detection tools that rely on facial expressions, eMotion focuses exclusively on kinesthetic features, offering a unique approach that can possibly contribute to the advancement of existing emotion recognition systems.
+eMotion is a system that analyzes kinesthetic features ***(body movements, postures, gestures)*** to detect and recognize human emotions ***(Happiness, Sadness, Surprise, Disgust, Anger, Fear, Neutral)*** in real time using computer vision techniques and the use of CNN + LSTM algorithms. Unlike traditional emotion detection tools that rely on facial expressions, eMotion focuses exclusively on kinesthetic features, offering a unique approach that can possibly contribute to the advancement of existing emotion recognition systems.
 
 This repository mainly focuses on the machine learning side of the system - dataset creation and modification, model training, and the actual model that can be used for inference purposes.
 
